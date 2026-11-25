@@ -1,8 +1,26 @@
+import type { Metadata } from "next";
 import { HeroExperience } from "@/widgets/hero-experience";
 import { MediaArchive } from "@/widgets/media-archive";
 import { MemoryStory } from "@/widgets/memory-story";
 import { DownloadSection } from "@/widgets/download-section";
 import { LandingMotion } from "./landing/LandingMotion";
+
+export const metadata: Metadata = {
+  metadataBase: process.env.SITE_URL ? new URL(process.env.SITE_URL) : undefined,
+  openGraph: {
+    type: "website",
+    url: "/",
+    images: [
+      {
+        url: "/assets/og/home.png",
+        type: "image/png",
+        width: 3811,
+        height: 1957,
+        alt: "MainFeed",
+      },
+    ],
+  },
+};
 
 export default function Home() {
   return (
