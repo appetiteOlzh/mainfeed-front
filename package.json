@@ -1,0 +1,35 @@
+{
+  "name": "mainfeed-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint app src .storybook",
+    "typecheck": "tsc --noEmit",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build:webpack": "next build --webpack",
+    "typecheck:storybook": "tsc -p .storybook/tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "next": "16.2.9",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/node": "20.19.43",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "tailwindcss": "4.3.1",
+    "@tailwindcss/postcss": "4.3.1",
+    "postcss": "8.5.15",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.9",
+    "storybook": "^10.2.0",
+    "@storybook/nextjs-vite": "^10.2.0",
+    "vite": "^7.2.0"
+  }
+}

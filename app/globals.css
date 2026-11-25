@@ -1,0 +1,11 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities) source(none);
+@import "../src/shared/styles/theme.css";
+@import "../src/shared/styles/landing.css" layer(components);
+@import "../src/shared/ui/phone-demo/phone.css" layer(components);
+@import "../src/widgets/hero-experience/roll-view.css" layer(components);
+@import "../app/landing/story.css" layer(components);
+@import "../src/widgets/download-section/finale.css" layer(components);
+@source "./";
+@source "../src";

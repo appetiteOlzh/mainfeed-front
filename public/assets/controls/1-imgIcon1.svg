@@ -1,0 +1,16 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="120.281" height="112.308" viewBox="0 0 120.281 112.308" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon" filter="url(#filter0_d_0_133)">
+<path id="Vector" d="M60.1406 29.9946C67.8181 12.0156 94.6894 13.9305 94.6894 36.9098C94.6894 59.8889 60.1406 79.0391 60.1406 79.0391C60.1406 79.0391 25.5917 59.8889 25.5917 36.9098C25.5917 13.9305 52.463 12.0156 60.1406 29.9946Z" fill="#FF3838"/>
+</g>
+<defs>
+<filter id="filter0_d_0_133" x="-1.71606e-07" y="-3.9864" width="120.281" height="120.281" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="7.67752"/>
+<feGaussianBlur stdDeviation="12.7959"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.35 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_133"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_133" result="shape"/>
+</filter>
+</defs>
+</svg>
