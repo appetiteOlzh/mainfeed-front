@@ -6,7 +6,7 @@ import { DownloadSection } from "@/widgets/download-section";
 import { LandingMotion } from "./landing/LandingMotion";
 
 export const metadata: Metadata = {
-  metadataBase: process.env.SITE_URL ? new URL(process.env.SITE_URL) : undefined,
+  metadataBase: new URL(process.env.SITE_URL || "https://mainfeed.life"),
   openGraph: {
     type: "website",
     url: "/",

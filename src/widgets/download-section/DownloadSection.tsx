@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { StoreButtons } from "@/shared/ui/store-buttons";
 
 export function DownloadSection() {
@@ -46,9 +47,9 @@ export function DownloadSection() {
           <img src="/assets/icon.webp" alt="" />
           MainFeed
         </a>
-        <button className="privacy-button" type="button" disabled>
+        <Link className="privacy-link" href="/privacy">
           Privacy Policy
-        </button>
+        </Link>
         <a href="#reel">Back to top</a>
       </footer>
     </section>

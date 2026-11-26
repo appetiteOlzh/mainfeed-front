@@ -62,7 +62,8 @@ h1,h2{font-weight:570;letter-spacing:-.072em;line-height:.85}
 footer{grid-column:1/-1;align-self:end;display:flex;align-items:center;justify-content:space-between;border-top:1px solid #fff4;height:68px;font-size:14px}footer .brand{font-size:21px}footer .brand img{width:25px;height:25px}
 footer{column-gap:clamp(10px,2.4vw,36px)}
 footer .brand{margin-right:auto}
-.privacy-button{min-height:44px;padding:0;border:0;background:none;color:inherit;-webkit-text-fill-color:currentColor;opacity:1;cursor:default}
+.privacy-link{display:inline-flex;align-items:center;min-height:44px}
+.privacy-link:hover{text-decoration:underline;text-underline-offset:5px}
 @media(max-width:360px){footer{font-size:12px}}
 @media(max-width:900px) and (orientation:portrait){
   :root{--mast:54px;--foot:44px;--pad:clamp(18px,5.1vw,34px)}
