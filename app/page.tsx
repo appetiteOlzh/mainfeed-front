@@ -31,7 +31,7 @@ export default function Home() {
       <header className="mast">
         <a className="brand" href="#reel" aria-label="MainFeed home">
           <img src="/assets/icon.webp" alt="" />
-          MainFeed
+          Mainfeed
         </a>
         <nav aria-label="Main navigation">
           <a href="#studio">Inside the app</a>

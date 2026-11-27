@@ -45,7 +45,7 @@ export function DownloadSection() {
       <footer>
         <a className="brand" href="#reel">
           <img src="/assets/icon.webp" alt="" />
-          MainFeed
+          Mainfeed
         </a>
         <Link className="privacy-link" href="/privacy-policy">
           Privacy Policy
