@@ -8,12 +8,12 @@ export function DownloadSection() {
         <h2 className="finale-title" id="download-title">
           Rediscover your
           <br /> best moments
-          <br /> with <span>MainFeed.</span>
+          <br /> with <span>Mainfeed.</span>
         </h2>
         <div
           className="finale-art"
           role="img"
-          aria-label="The MainFeed app swiping through personal photos in a full-screen feed"
+          aria-label="The Mainfeed app swiping through personal photos in a full-screen feed"
         >
           <div className="finale-stack" aria-hidden="true">
             <div className="finale-glass">

@@ -1,6 +1,6 @@
 export function StoreButtons() {
   return (
-    <div className="store-pair" role="group" aria-label="MainFeed mobile apps">
+    <div className="store-pair" role="group" aria-label="Mainfeed mobile apps">
       <button
         type="button"
         className="store-badge"

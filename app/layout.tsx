@@ -3,9 +3,9 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MainFeed - Your life is the main feed",
+  title: "Mainfeed - Your life is the main feed",
   description:
-    "Swipe through the photos and videos already on your phone. MainFeed is a private feed of your own life.",
+    "Swipe through the photos and videos already on your phone. Mainfeed is a private feed of your own life.",
   icons: { icon: "/assets/icon.webp" },
 };
 export const viewport: Viewport = { themeColor: "#f3f0e7" };

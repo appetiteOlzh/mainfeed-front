@@ -4,7 +4,7 @@ import ts from "eslint-config-next/typescript";
 export default defineConfig([
   ...next,
   ...ts,
-  globalIgnores(["MainFeed-site/**", "storybook-static/**", ".next/**"]),
+  globalIgnores(["Mainfeed-site/**", "storybook-static/**", ".next/**"]),
   {
     files: ["app/**/*", "src/**/*"],
     rules: {

@@ -31,14 +31,14 @@ export function HeroExperience() {
           <div className="negative-strip" aria-hidden="true"></div>
           <div className="chapter swiping">
             <p className="section-label">
-              <i className="lightmark" aria-hidden="true"></i>Open MainFeed.
+              <i className="lightmark" aria-hidden="true"></i>Open Mainfeed.
               Start swiping.
             </p>
             <h1 id="product-title">
               <span>Swipe</span> <span>your life.</span>
             </h1>
             <p className="body-copy">
-              MainFeed transforms your camera roll into a personalized feed you
+              Mainfeed transforms your camera roll into a personalized feed you
               can swipe through like TikTok.
             </p>
             <p className="swipe-caption">
@@ -51,7 +51,7 @@ export function HeroExperience() {
           <div className="chapter choosing">
             <p className="section-label">
               <i className="lightmark" aria-hidden="true"></i>Why people love
-              MainFeed
+              Mainfeed
             </p>
             <h2 id="roll-title">
               <span>Manage your</span> <span>camera roll</span>{" "}
@@ -92,7 +92,7 @@ export function HeroExperience() {
           </div>
           <div
             className="hardware"
-            aria-label="Animated demonstration of MainFeed"
+            aria-label="Animated demonstration of Mainfeed"
           >
             <div className="device-content"></div>
           </div>

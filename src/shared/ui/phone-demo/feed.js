@@ -1,4 +1,4 @@
-export const MainFeedDemo = (() => {
+export const MainfeedDemo = (() => {
   const assetURL = (path) => "/assets/" + path;
   const instances = new WeakMap();
   const lakeMemory = {
@@ -73,7 +73,7 @@ export const MainFeedDemo = (() => {
         ? `<span aria-current="page" aria-label="${label}">${image}</span>`
         : `<button type="button" aria-label="${label}" ${action}>${image}</button>`;
     });
-    return `<nav class="mfd-nav" aria-label="MainFeed tabs">${items.join("")}</nav>`;
+    return `<nav class="mfd-nav" aria-label="Mainfeed tabs">${items.join("")}</nav>`;
   }
 
   /** @param {HTMLElement} element @param {ReturnType<typeof import("../../lib/scene-scope").createSceneScope>} scope @param {{firstPhoto?: string}} options */

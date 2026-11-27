@@ -1,7 +1,7 @@
-import { MainFeedDemo } from "@/shared/ui/phone-demo";
+import { MainfeedDemo } from "@/shared/ui/phone-demo";
 
 export const CameraRoll = (() => {
-  const assetURL = MainFeedDemo.assetURL;
+  const assetURL = MainfeedDemo.assetURL;
 
   const albums = [
     ["Favorites", "favorites", 128],
@@ -54,7 +54,7 @@ export const CameraRoll = (() => {
     });
     resize.observe(root);
     canvas.style.transform = "scale(" + root.clientWidth / 390 + ")";
-    const feed = MainFeedDemo.mount(canvas, scope);
+    const feed = MainfeedDemo.mount(canvas, scope);
     const q = (selector) => canvas.querySelector(selector);
     canvas.insertAdjacentHTML(
       "beforeend",
@@ -73,7 +73,7 @@ export const CameraRoll = (() => {
           .join("")}</div>
       </section>
       <section class="rv-delete" role="group" aria-labelledby="delete-photo-title">
-        <div class="rv-delete-copy"><h3 id="delete-photo-title">Allow “MainFeed” to delete this photo?</h3>
+        <div class="rv-delete-copy"><h3 id="delete-photo-title">Allow “Mainfeed” to delete this photo?</h3>
           <p>This photo will be deleted from iCloud Photos on all your devices. It will be in Recently Deleted for 30 days.</p></div>
         <img class="rv-delete-preview" alt="Photo selected for deletion">
         <div class="rv-delete-actions"><button type="button" data-phone-frame=".45">Don’t Allow</button>
@@ -85,7 +85,7 @@ export const CameraRoll = (() => {
           <button class="rv-corner rv-add" type="button" aria-label="New album" data-new-draft data-phone-frame=".78">${icon("add")}</button>
           <h3>My collections</h3>
           <div class="rv-grid"></div>
-          ${MainFeedDemo.navigation("album")}
+          ${MainfeedDemo.navigation("album")}
         </div>
         <div class="rv-album-dim"></div>
         <div class="rv-album-sheet" role="group" aria-labelledby="new-album-title">

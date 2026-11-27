@@ -1,13 +1,13 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import { useEffect, useRef } from "react";
 import { createSceneScope } from "@/shared/lib/scene-scope";
-import { MainFeedDemo } from "./feed";
+import { MainfeedDemo } from "./feed";
 function PhonePreview({ firstPhoto }: { firstPhoto: "dog" | "birthday" }) {
   const host = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (!host.current) return;
     const scope = createSceneScope();
-    MainFeedDemo.mount(host.current, scope, { firstPhoto });
+    MainfeedDemo.mount(host.current, scope, { firstPhoto });
     return () => scope.dispose();
   }, [firstPhoto]);
   return (

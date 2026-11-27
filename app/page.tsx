@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         type: "image/png",
         width: 3811,
         height: 1957,
-        alt: "MainFeed",
+        alt: "Mainfeed",
       },
     ],
   },
@@ -29,7 +29,7 @@ export default function Home() {
         Skip to content
       </a>
       <header className="mast">
-        <a className="brand" href="#reel" aria-label="MainFeed home">
+        <a className="brand" href="#reel" aria-label="Mainfeed home">
           <img src="/assets/icon.webp" alt="" />
           Mainfeed
         </a>

@@ -44,7 +44,7 @@ export function MemoryStory() {
                 <p>
                   Meanwhile, our own memories sit forgotten inside our phones.
                 </p>
-                <p>MainFeed brings them back to life.</p>
+                <p>Mainfeed brings them back to life.</p>
               </div>
             </div>
             <div className="memory-window">

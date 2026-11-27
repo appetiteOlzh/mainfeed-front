@@ -1,4 +1,4 @@
-import { MainFeedDemo } from "@/shared/ui/phone-demo";
+import { MainfeedDemo } from "@/shared/ui/phone-demo";
 
 export function mountFinale(scope) {
   const display = document.querySelector("#join .finale-device-content");
@@ -48,7 +48,7 @@ export function mountFinale(scope) {
       resize.observe(display);
       fitScreen(display.clientWidth, display.clientHeight);
 
-      feed = MainFeedDemo.mount(artboard, scope, { firstPhoto: "birthday" });
+      feed = MainfeedDemo.mount(artboard, scope, { firstPhoto: "birthday" });
       const opening = artboard.querySelector(".mfd-photo");
       opening
         .decode()

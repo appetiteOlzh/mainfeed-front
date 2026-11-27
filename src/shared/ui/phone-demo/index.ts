@@ -1,1 +1,1 @@
-export { MainFeedDemo } from "./feed";
+export { MainfeedDemo } from "./feed";
